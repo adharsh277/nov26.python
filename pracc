@@ -1,0 +1,71 @@
+# default parameter value
+
+
+def my_function(country="norway"):
+    print("iam  from" + country)
+
+
+my_function(" sweden")
+my_function(" netherland")
+my_function(" canada")
+my_function(" imdia")
+# else in for loop
+for x in range(6):
+    print(x)
+else:
+    print("finally finished")
+
+
+# Arguments
+
+
+def my_function():
+    print("hello from a function")
+
+
+my_function()
+# 45
+
+
+def my_function():
+    print("eren is coming for you bitch , the world is going to end")
+# aarguments
+
+
+def my_function(fname):
+    print(fname + "dsjfbf")
+
+
+my_function("emil")
+my_function("hgujhsg")
+my_function("jbsauocx")
+# Artibuitary arguments
+
+
+def my_function(country="norway"):
+    print("i am the king of "+country)
+    my_function("sweden")
+    my_function("switz")
+    my_function("wellington")
+    my_function("netherlads")
+
+# python lambda
+
+
+def x(a): return a+15
+
+
+print(x(5))
+# sub
+def x(a): return a-7
+
+
+print(x(7))
+# multiply
+def x(a): return a*3
+
+
+print(x, (3, 4))
+# arrays
+animals = ("lion", "tiger", "dog", "donkey")
+print(animals)
